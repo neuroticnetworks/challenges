@@ -22,6 +22,6 @@
 	```
  
   
- ...write a “resort” function with two parameters that sorts the first object u by criteria set in the second object o, e.g. resort(u, o)
+    ...write a “resort” function with two parameters that sorts the first object u by criteria set in the second object o, e.g. resort(u, o)
  
 3. Finally, make a product called "Chess" that prints out an 8x8 chessboard to the console.
