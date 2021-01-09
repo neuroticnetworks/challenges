@@ -1,6 +1,6 @@
 ## QA Engineer Challenge
 
-####1. Automatically test the first steps of any online account onboarding wizard. You can you Pico's Onboarding if you want, but any of the following would be fine:
+#### 1. Automatically test the first steps of any online account onboarding wizard. You can you Pico's Onboarding if you want, but any of the following would be fine:
 `https://staging.trypico.com/signup`
 `https://demoqa.com/automation-practice-form`
 `https://www.guru99.com/live-testing-project.html`
@@ -11,7 +11,7 @@
 3. Produce a simple report with the results of the tests, including defects or blockers encountered. A spreadsheet or doc is fine.
 
 
-####2. Write a performance test of a publically available API endpoint that requires a POST payload. You can use a Pico API endpoint if you want, but any that you choose would be acceptable, as long as it is a POST request.
+#### 2. Write a performance test of a publically available API endpoint that requires a POST payload. You can use a Pico API endpoint if you want, but any that you choose would be acceptable, as long as it is a POST request.
 `https://api.staging.pico.tools/loader/guest`
 `https://jsonplaceholder.typicode.com/`
 
