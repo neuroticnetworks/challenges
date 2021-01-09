@@ -1,7 +1,7 @@
 ## QA Engineer Challenge
 
 #### 1. Automatically test the first steps of any online account onboarding wizard. You can you Pico's Onboarding if you want, but any of the following would be fine:
-`https://staging.trypico.com/signup` 
+`https://staging.trypico.com/signup`  
 `https://demoqa.com/automation-practice-form` 
 `https://www.guru99.com/live-testing-project.html` 
 
