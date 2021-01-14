@@ -19,3 +19,6 @@
 2. Use a tool like Apache A/B, JMeter, or Blazemeter to execute the test.
 3. Produce a simple histogram describing the response performance of the endpoint over time and as the number of requests increases. 
 
+#### 3. Include detailed instructions for running your tests!
+
+#### 4. Extra: Add a brief paragraph to share any insights you had into each part of the assignment.
