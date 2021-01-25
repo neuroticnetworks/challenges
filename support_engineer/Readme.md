@@ -18,7 +18,9 @@ When you refresh the site you should see the gadget on the site. Most likely it 
 https://help.trypico.com/en/articles/2906319-using-pico-signals
 
 4. Add custom triggers on the site
--Add a custom trigger (button) that will open a registration prompt.
+
+-Add a custom trigger (button) that will open a registration prompt. The registration prompt
+
 -Add a custom trigger (any html element) that will open a payment prompt for a specific plan. The element will need to have
 class="PicoPlan_XXX" (where XXX is the short code for the plan). HINT: You can find the short code by inspecting the POST response from 
 https://api.staging.pico.tools/loader/guest. The key is short_code and will look like 1a23bcde. It has 8 characters with numbers and letters.
