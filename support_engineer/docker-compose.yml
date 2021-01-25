@@ -1,0 +1,17 @@
+version: '3.7'
+networks:
+  default:
+    external:
+      name: api_picoweb
+services:
+  wrapper:
+    container_name: wrapper.local 
+    hostname: wrapper.local 
+    image: php:apache
+    expose:
+      - 80
+    volumes:
+      - ./wrapper:/var/www/html/
+    environment:
+      VIRTUAL_HOST: wrapper.local
+      PUBLISHER_ID: $${PUBLISHER_ID-c9298a6f-566d-4507-9def-116384264538}
