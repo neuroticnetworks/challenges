@@ -39,5 +39,7 @@ https://api.staging.pico.tools/loader/guest. The key is short_code and will look
 https://help.trypico.com/en/articles/2906365-custom-triggers 
    
    A payment prompt will look similar to:
+
+
 ![img_1.png](img_1.png)
 
