@@ -14,4 +14,4 @@ services:
       - ./wrapper:/var/www/html/
     environment:
       VIRTUAL_HOST: wrapper.local
-      PUBLISHER_ID: $${PUBLISHER_ID-c9298a6f-566d-4507-9def-116384264538}
+      PUBLISHER_ID: ${PUBLISHER_ID-c9298a6f-566d-4507-9def-116384264538}
