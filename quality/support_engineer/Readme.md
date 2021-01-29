@@ -5,7 +5,7 @@ Check out [Pico Help](https://help.trypico.com) for advice and support for using
 #### Tasks:
 1 Get the sample test site running locally on your computer.
   
-Add `wrapper.local` as a local host to your `/etc/hosts`. 
+Add `wrapper.local` as a local host to your `/etc/hosts` aliasing to localhost and 127.0.0.1
 Run the local site container running using `docker-compose`. You may need to install Docker Desktop
 Navigate to `http://wrapper.local` in your web broswer and ensure you can view the support site.
 
