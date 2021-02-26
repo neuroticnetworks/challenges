@@ -5,16 +5,16 @@ For this challenge, you will use a subset of the [Brazilian E-Commerce Public Da
 
 ### Development Environment Setup
 
-We provided you with a docker-compose to simplify the setup. It will start the database and a Jupyter Lab server.
+We are providing you with a docker-compose to simplify the setup. It will start the database and a Jupyter Lab server.
 
  You can complete the challenge using either MariaDB or PostgreSQL. The docker-compose.yml supports both.
 
 - MariaDB: `docker-compose up mariadb lab`
 - PostgreSQL: `docker-compose up postgres lab`
 
-Notice the Jupyter Lab URL at the end of the startup process.
+Please take note the Jupyter Lab URL at the end of the startup process: you will need it later!
 
-In both cases, an empty database named `olist` will be created. You can check the credentials inside the `docker-compose.yml` file.
+In both cases, an empty database named `olist` will be created. The database credentials are in the `docker-compose.yml` file.
 
 Download the dataset from https://www.kaggle.com/olistbr/brazilian-ecommerce/download and unzip the files into the `work/csv` folder.
 
@@ -29,9 +29,9 @@ Feel free to change the docker-compose.yml and use other images for Jupyter Lab.
 
 Your first task is to create the database schema. After selecting your database flavor, create the tables according to the Data schema available in the Description section of the [Brazilian E-Commerce Public Dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce).
 
-Simplify the table names by removing the `olist_` prefix and the `_dataset` suffix. Eg: `olist_customers_dataset.csv` becomes the `customers` table.
+Simplify the table names by removing the `olist_` prefix and the `_dataset` suffix. Eg: `olist_customers_dataset.csv` should become the `customers` table.
 
-Only need the following tables are required in the schema:
+The following tables are required in the schema:
 
 - customers
 - sellers
